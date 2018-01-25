@@ -1,252 +1,603 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="30" passed="30">
+<testng-results skipped="0" failed="9" total="30" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14198" started-at="2018-01-25T12:02:14Z" finished-at="2018-01-25T12:02:28Z">
+  <suite name="Default suite" duration-ms="12895" started-at="2018-01-25T14:21:39Z" finished-at="2018-01-25T14:21:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14198" started-at="2018-01-25T12:02:14Z" finished-at="2018-01-25T12:02:28Z">
+    <test name="Default test" duration-ms="12895" started-at="2018-01-25T14:21:39Z" finished-at="2018-01-25T14:21:52Z">
       <class name="com.groupid.firstmavenproject.CCMApiTest">
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="920" started-at="2018-01-25T17:32:14Z" finished-at="2018-01-25T17:32:15Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="337" started-at="2018-01-25T19:51:39Z" finished-at="2018-01-25T19:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="brandType()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="brandType" duration-ms="3484" started-at="2018-01-25T17:32:15Z" finished-at="2018-01-25T17:32:19Z">
+        <test-method status="PASS" signature="brandType()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="brandType" duration-ms="1713" started-at="2018-01-25T19:51:39Z" finished-at="2018-01-25T19:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brandType -->
-        <test-method status="PASS" signature="getcountry()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="getcountry" duration-ms="297" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:19Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="1" started-at="2018-01-25T19:51:41Z" finished-at="2018-01-25T19:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="getcountry()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="getcountry" duration-ms="278" started-at="2018-01-25T19:51:41Z" finished-at="2018-01-25T19:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getcountry -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="categoryType()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="categoryType" duration-ms="359" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:19Z">
+        <test-method status="PASS" signature="categoryType()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="categoryType" duration-ms="318" started-at="2018-01-25T19:51:41Z" finished-at="2018-01-25T19:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoryType -->
-        <test-method status="PASS" signature="registerUser()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="registerUser" duration-ms="474" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:20Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:41Z" finished-at="2018-01-25T19:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="14" started-at="2018-01-25T19:51:42Z" finished-at="2018-01-25T19:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="FAIL" signature="registerUser()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="registerUser" duration-ms="410" started-at="2018-01-25T19:51:42Z" finished-at="2018-01-25T19:51:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.registerUser(CCMApiTest.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:19Z" finished-at="2018-01-25T17:32:19Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:42Z" finished-at="2018-01-25T19:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="ccmLogin()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="ccmLogin" duration-ms="1660" started-at="2018-01-25T17:32:20Z" finished-at="2018-01-25T17:32:21Z">
+        <test-method status="PASS" signature="ccmLogin()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="ccmLogin" duration-ms="1177" started-at="2018-01-25T19:51:42Z" finished-at="2018-01-25T19:51:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ccmLogin -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:20Z" finished-at="2018-01-25T17:32:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:21Z" finished-at="2018-01-25T17:32:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="myRewards()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="myRewards" duration-ms="265" started-at="2018-01-25T17:32:21Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="PASS" signature="myRewards()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="myRewards" duration-ms="311" started-at="2018-01-25T19:51:43Z" finished-at="2018-01-25T19:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myRewards -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:43Z" finished-at="2018-01-25T19:51:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="updatedevicedetails()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="updatedevicedetails" duration-ms="266" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="FAIL" signature="updatedevicedetails()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="updatedevicedetails" duration-ms="203" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.updatedevicedetails(CCMApiTest.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatedevicedetails -->
-        <test-method status="PASS" signature="forgotpassword()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="forgotpassword" duration-ms="297" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="forgotpassword()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="forgotpassword" duration-ms="218" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotpassword -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:22Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="1" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="myprofile()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="myprofile" duration-ms="403" started-at="2018-01-25T17:32:22Z" finished-at="2018-01-25T17:32:23Z">
+        <test-method status="PASS" signature="myprofile()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="myprofile" duration-ms="201" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myprofile -->
-        <test-method status="PASS" signature="updateprofile()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="updateprofile" duration-ms="218" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:23Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="1" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="FAIL" signature="updateprofile()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="updateprofile" duration-ms="214" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.updateprofile(CCMApiTest.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateprofile -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="changepassword()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="changepassword" duration-ms="344" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:23Z">
+        <test-method status="FAIL" signature="changepassword()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="changepassword" duration-ms="327" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.changepassword(CCMApiTest.java:452)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changepassword -->
-        <test-method status="PASS" signature="sendverificationlink()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="sendverificationlink" duration-ms="259" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:24Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:44Z" finished-at="2018-01-25T19:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="sendverificationlink()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="sendverificationlink" duration-ms="308" started-at="2018-01-25T19:51:45Z" finished-at="2018-01-25T19:51:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendverificationlink -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:23Z" finished-at="2018-01-25T17:32:23Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:45Z" finished-at="2018-01-25T19:51:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="productlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="productlist" duration-ms="297" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:24Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:45Z" finished-at="2018-01-25T19:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="productlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="productlist" duration-ms="960" started-at="2018-01-25T19:51:45Z" finished-at="2018-01-25T19:51:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productlist -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:24Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:46Z" finished-at="2018-01-25T19:51:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="productimage()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="productimage" duration-ms="234" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:24Z">
+        <test-method status="FAIL" signature="productimage()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="productimage" duration-ms="594" started-at="2018-01-25T19:51:46Z" finished-at="2018-01-25T19:51:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.productimage(CCMApiTest.java:582)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productimage -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="basicpages()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="basicpages" duration-ms="814" started-at="2018-01-25T17:32:24Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="basicpages()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="basicpages" duration-ms="640" started-at="2018-01-25T19:51:47Z" finished-at="2018-01-25T19:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicpages -->
-        <test-method status="PASS" signature="getfeedbacktype()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="getfeedbacktype" duration-ms="235" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:47Z" finished-at="2018-01-25T19:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="getfeedbacktype()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="getfeedbacktype" duration-ms="325" started-at="2018-01-25T19:51:47Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getfeedbacktype -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:47Z" finished-at="2018-01-25T19:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="1" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="giftdetail()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="giftdetail" duration-ms="306" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="giftdetail()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="giftdetail" duration-ms="309" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giftdetail -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:25Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="mypoints()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="mypoints" duration-ms="239" started-at="2018-01-25T17:32:25Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="mypoints()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="mypoints" duration-ms="350" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mypoints -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="mygifts()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="mygifts" duration-ms="219" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="mygifts()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="mygifts" duration-ms="402" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mygifts -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:48Z" finished-at="2018-01-25T19:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="advertisementsdetail()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="advertisementsdetail" duration-ms="203" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="FAIL" signature="advertisementsdetail()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="advertisementsdetail" duration-ms="310" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.advertisementsdetail(CCMApiTest.java:736)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- advertisementsdetail -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="advertisementsdelete()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="advertisementsdelete" duration-ms="219" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="FAIL" signature="advertisementsdelete()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="advertisementsdelete" duration-ms="316" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [403]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.advertisementsdelete(CCMApiTest.java:763)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- advertisementsdelete -->
-        <test-method status="PASS" signature="promotionlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="promotionlist" duration-ms="198" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="promotionlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="promotionlist" duration-ms="319" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- promotionlist -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:26Z" finished-at="2018-01-25T17:32:26Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:49Z" finished-at="2018-01-25T19:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="16" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="1" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="promotionproductlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="promotionproductlist" duration-ms="203" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="promotionproductlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="promotionproductlist" duration-ms="318" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- promotionproductlist -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="userpoint()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="userpoint" duration-ms="234" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="userpoint()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="userpoint" duration-ms="327" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userpoint -->
-        <test-method status="PASS" signature="usergiftlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="usergiftlist" duration-ms="297" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="PASS" signature="usergiftlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="usergiftlist" duration-ms="315" started-at="2018-01-25T19:51:50Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usergiftlist -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="productstore()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="productstore" duration-ms="222" started-at="2018-01-25T17:32:27Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="productstore()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="productstore" duration-ms="300" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productstore -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="advertisementgetproduct()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="advertisementgetproduct" duration-ms="219" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="advertisementgetproduct()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="advertisementgetproduct" duration-ms="213" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- advertisementgetproduct -->
-        <test-method status="PASS" signature="randomadvertisement()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="randomadvertisement" duration-ms="214" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
+        <test-method status="FAIL" signature="randomadvertisement()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="randomadvertisement" duration-ms="239" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.randomadvertisement(CCMApiTest.java:1197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- randomadvertisement -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="advertisementlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="advertisementlist" duration-ms="242" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="FAIL" signature="advertisementlist()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="advertisementlist" duration-ms="289" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [500]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [500]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.groupid.firstmavenproject.CCMApiTest.advertisementlist(CCMApiTest.java:1268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- advertisementlist -->
-        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:51Z" finished-at="2018-01-25T19:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseUrl -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@523884b2]" name="logOut" duration-ms="219" started-at="2018-01-25T17:32:28Z" finished-at="2018-01-25T17:32:28Z">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="logOut" duration-ms="274" started-at="2018-01-25T19:51:52Z" finished-at="2018-01-25T19:51:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="baseUrl()[pri:0, instance:com.groupid.firstmavenproject.CCMApiTest@1593948d]" name="baseUrl" is-config="true" duration-ms="0" started-at="2018-01-25T19:51:52Z" finished-at="2018-01-25T19:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUrl -->
       </class> <!-- com.groupid.firstmavenproject.CCMApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
